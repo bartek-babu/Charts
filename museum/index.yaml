@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  master-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-22T22:48:55.860359454+02:00"
+    description: A Helm chart for Kubernetes
+    digest: e3dfd635eaef6bbbd9eb40853a62a635f3663c5634327fd0a0bbeadb640940c8
+    name: master-chart
+    type: application
+    urls:
+    - https://bartek-babu.github.io/Charts/master-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-22T22:48:55.859813538+02:00"
