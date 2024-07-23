@@ -1,6 +1,9 @@
+{{- if .Values.configmap.create -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: "{{ include "master-chart.fullname" . }}-configmap"
 data:
-  config.json: {{ .Values.configmapContents }}
+  config.json: |
+    {{ .Values.configmapContents | nindent 4 }}
+{{- end }}

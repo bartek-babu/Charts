@@ -130,3 +130,11 @@ updateStrategy:
   rollingUpdate:
     maxUnavailable: 1
 
+configmap:
+  create: false
+  #configmapContents: |
+  #  {
+  #      "current_env" : "dev",
+  #      "clusterName" : "dev-global-cluster-0",
+  #      "clusterHost" : "kind"
+  #  }
