@@ -5,5 +5,5 @@ metadata:
   name: "{{ include "master-chart.fullname" . }}-configmap"
 data:
   config.json: |
-    {{ .Values.configmapContents | nindent 4 }}
+    {{ .Values.configmap.configmapContents | nindent 4 }}
 {{- end }}
