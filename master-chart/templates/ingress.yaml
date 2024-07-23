@@ -5,7 +5,7 @@ metadata:
   name: "{{ include "master-chart.fullname" . }}-ingress"
   namespace: {{ .Values.namespace }}
   labels:
-    app: {{ .Values.appName }}
+    {{- include "master-chart.labels" . | nindent 4 }}
   annotations:
     {{- range $key, $value := .Values.ingress.annotations }}
     {{ $key }}: {{ $value | quote }}
