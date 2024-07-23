@@ -3,12 +3,12 @@ entries:
   master-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-23T13:58:52.285567664+02:00"
+    created: "2024-07-23T14:09:13.047418578+02:00"
     description: A Helm chart for Kubernetes
-    digest: 65c94d382d773406325f459e768ac5b0741ef8779920d1f99bba9405a898c39d
+    digest: a4cdfc3a4a26fec16d84015c655ef2b31afb14ff9c38f6fd85573b7cd58b128d
     name: master-chart
     type: application
     urls:
     - https://bartek-babu.github.io/Charts/master-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-23T13:58:52.285118752+02:00"
+generated: "2024-07-23T14:09:13.046987931+02:00"
